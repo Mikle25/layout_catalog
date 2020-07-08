@@ -16,5 +16,18 @@ body {
   margin: 50px 0 0;
 }
 
+.card__icon--transform {
+  transition: transform 1s linear;
+}
+
+.card__icon--transform:hover {
+  border: 3px solid #f3f3f3;
+  transform: scale(1.25);
+}
+
+.card__button--transform {
+  transition: background-color 1s linear;
+}
+
 @import "header";
 @import "product";
