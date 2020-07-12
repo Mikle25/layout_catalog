@@ -27,6 +27,8 @@
     text-transform: uppercase;
     color: #000;
 
+    transition: color 0.5s;
+
     &:hover {
       color: $colorNavActive;
     }
