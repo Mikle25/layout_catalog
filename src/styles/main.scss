@@ -1,13 +1,8 @@
-
 @import "variables";
 @import "mixin";
 @import "reset";
 @import "header";
 @import "navigation";
-@import "container";
+@import "container-product";
 @import "product-card";
 @import "rating";
-
-html {
-  @include fontNormal;
-}
